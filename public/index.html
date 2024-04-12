@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sistema de Monitoreo de Sensores</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Sistema de Monitoreo de Sensores</h1>
+      <div id="output"></div>
+      <input type="text" id="command-input" placeholder="Ingresa un comando" />
+      <button id="send-command">Enviar</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
